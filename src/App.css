@@ -1,5 +1,7 @@
+@import "~antd/dist/antd.css";
+
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -14,7 +16,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #2d323b;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,6 +30,12 @@
   color: #61dafb;
 }
 
+.sider {
+  background-color: ghostwhite;
+  display: flex;
+  flex-direction: column;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +43,57 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.anticon {
+  display: inline-block;
+  color: inherit;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  padding: 30px;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.anticon:hover,
+:focus {
+  background-color: lightgray;
+  cursor: pointer;
+}
+.ant-avatar.ant-avatar-icon > .anticon {
+  margin: 0;
+  align-items: center;
+  padding: 8px;
+}
+.icon-font .anticon {
+  font-size: 30px !important;
+}
+.width-left-side .ant-layout-sider {
+  width: 95px !important;
+  max-width: 95px !important;
+  min-width: 95px !important;
+}
+.icon-font .sidebar {
+  margin-top: 50px !important;
+}
+.avatar-iicon {
+  display: block;
+  margin: 0 auto;
+}
+
+.card_style {
+  max-width: 400px;
+  margin: 20px;
+  border-radius: 10px;
+}
+.card_style:hover {
+  cursor: pointer;
 }

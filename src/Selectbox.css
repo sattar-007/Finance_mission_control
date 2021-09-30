@@ -1,0 +1,10 @@
+.align {
+  /* display: flex; */
+  flex-direction: column;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.names-search .ant-select {
+  float: right;
+  margin-top: -54px;
+}

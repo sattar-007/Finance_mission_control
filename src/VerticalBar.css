@@ -1,0 +1,38 @@
+.bank-pp {
+  float: right;
+  margin-top: -107px;
+}
+.bank-pp .anticon-bank {
+  font-size: 40px;
+}
+.cre-dit {
+  float: right;
+  margin-top: -107px;
+}
+.cre-dit .anticon-credit-card {
+  font-size: 40px;
+}
+
+.graphicon {
+  float: right;
+  margin-top: -90px;
+}
+
+.graphicon {
+  font-size: 50px;
+  color: darkgreen;
+}
+
+.fireicon {
+  float: right;
+  margin-top: -90px;
+  font-size: 50px;
+  color: darkred;
+}
+
+.timeicon {
+  float: right;
+  margin-top: -90px;
+  font-size: 50px;
+  color: lawngreen;
+}
